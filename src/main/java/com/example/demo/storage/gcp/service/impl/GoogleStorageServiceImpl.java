@@ -24,8 +24,7 @@ public class GoogleStorageServiceImpl implements GoogleStorageService {
 
 	private Storage storage;
 
-	//private String bucketName = "myBucket";
-	private String bucketName = "demo_epos";
+	private String bucketName = "myBucket";
 
 	@Autowired
 	public GoogleStorageServiceImpl(Storage storage) {
