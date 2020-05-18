@@ -1,0 +1,6 @@
+//register
+curl -H "Content-Type: application/json" --data "{\"fileBase64\": \"CLI01\", \"fileName\": \"my-file\"}" http://localhost:8099/files
+//donwload
+curl -O http://localhost:8099/files/donwload/my-file
+//delete
+curl -X DELETE http://localhost:8099/files/my-file

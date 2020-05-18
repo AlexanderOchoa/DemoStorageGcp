@@ -27,8 +27,8 @@
 
 ### Maven ###
 /.mvn
-.mvnw
-.mvnw.cmd
+*.mvnw
+*.mvnw.cmd
 
 ### log ###
-.log
+*.log
